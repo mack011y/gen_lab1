@@ -1,0 +1,19 @@
+,значение
+pop_size,50
+max_evals,10000
+selection,tournament
+tournament_k,3
+rank_s,1.7
+crossover,sbx
+pc,0.9
+sbx_eta,15.0
+blx_alpha,0.5
+pm,0.1
+sigma0,0.1
+adaptive,True
+elite,2
+bounds,reflect
+n_runs,30
+seeds,1000..1029
+инициализация,равномерная в D
+критерий остановки,исчерпание бюджета вычислений f
