@@ -1,0 +1,12 @@
+,значение
+pop_size,50
+max_evals,20000
+tournament_k,3
+pc,0.9
+mutation,balance
+pm,0.025
+constraints,repair
+lam,100.0
+elite,2
+n_runs,30
+seeds,1000..1029
