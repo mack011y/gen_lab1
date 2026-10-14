@@ -7,7 +7,8 @@
 ```bash
 pip install numpy pandas matplotlib scipy jupyter
 cd lab2
-jupyter nbconvert --to notebook --execute --inplace --ExecutePreprocessor.timeout=3600 lab2.ipynb   # ~10 мин
+jupyter nbconvert --to notebook --execute --inplace \
+    --ExecutePreprocessor.timeout=3600 lab2.ipynb   # ~10 мин
 ```
 
 * Запускать из папки `lab2`, результаты пишутся в `results/`
